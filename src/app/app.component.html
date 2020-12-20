@@ -1,0 +1,161 @@
+<div style="background : #face50">
+
+	<h1 style="text-align: center">{{ name }}</h1>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-default weatherbox col-md-3">
+				<div class="panel-heading">
+					<input type="text" id="cityName0" name="cityName0" placeholder="Enter City Name" [(ngModel)]="cityName0" required>
+					<button type="button" name="Search" (click)="getWeatherReport(cityName0, 0)">Search </button>
+				</div>
+
+				<div class="panel-body">Weather Report
+					<p>
+						Cloud : {{cityNameResponse0.clouds}}
+					</p>
+					<p>
+						Temperature : {{cityNameResponse0.temp}}
+					</p>
+				</div>
+			</div>
+			<div class="panel panel-default weatherbox col-md-3 col-md-offset-1">
+				<div class="panel-heading">
+					<input type="text" id="cityName1" name="cityName1"          placeholder="Enter City Name" [(ngModel)]="cityName1" required>
+					<button type="button" name="Search" (click)="getWeatherReport(cityName1, 1)">Search
+					</button>
+				</div>
+
+				<div class="panel-body">Weather Report
+					<p>
+						Cloud : {{cityNameResponse1.clouds}}
+					</p>
+					<p>
+						Temperature : {{cityNameResponse1.temp}}
+					</p>
+				</div>
+			</div>
+			<div class="panel panel-default weatherbox col-md-3 col-md-offset-1">
+				<div class="panel-heading">
+					<input type="text" id="cityName2" name="cityName2"          placeholder="Enter City Name" [(ngModel)]="cityName2" required>
+					<button type="button" name="Search" (click)="getWeatherReport(cityName2, 2)">Search
+					</button>
+				</div>
+
+				<div class="panel-body">Weather Report
+					<p>
+						Cloud : {{cityNameResponse2.clouds}}
+					</p>
+					<p>
+						Temperature : {{cityNameResponse2.temp}}
+					</p>
+				</div>
+			</div>
+
+			<!-- 2 nd row -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default weatherbox col-md-3">
+						<div class="panel-heading">
+							<input type="text" id="cityName3" name="cityName3" placeholder="Enter City Name" [(ngModel)]="cityName3" required>
+							<button type="button" name="Search" (click)="getWeatherReport(cityName3, 3)">Search </button>
+						</div>
+
+						<div class="panel-body">Weather Report
+							<p>
+								Cloud : {{cityNameResponse3.clouds}}
+							</p>
+							<p>
+								Temperature : {{cityNameResponse3.temp}}
+							</p>
+						</div>
+					</div>
+					<div class="panel panel-default weatherbox col-md-3 col-md-offset-1">
+						<div class="panel-heading">
+							<input type="text" id="cityName4" name="cityName4"          placeholder="Enter City Name" [(ngModel)]="cityName4" required>
+							<button type="button" name="Search" (click)="getWeatherReport(cityName4, 4)">Search
+					</button>
+						</div>
+
+						<div class="panel-body">Weather Report
+							<p>
+								Cloud : {{cityNameResponse4.clouds}}
+							</p>
+							<p>
+								Temperature : {{cityNameResponse4.temp}}
+							</p>
+						</div>
+					</div>
+					<div class="panel panel-default weatherbox col-md-3 col-md-offset-1">
+						<div class="panel-heading">
+							<input type="text" id="cityName5" name="cityName5"          placeholder="Enter City Name" [(ngModel)]="cityName5" required>
+							<button type="button" name="Search" (click)="getWeatherReport(cityName5, 5)">Search
+					</button>
+						</div>
+
+						<div class="panel-body">Weather Report
+							<p>
+								Cloud : {{cityNameResponse5.clouds}}
+							</p>
+							<p>
+								Temperature : {{cityNameResponse5.temp}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 3rd row-->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default weatherbox col-md-3">
+						<div class="panel-heading">
+							<input type="text" id="cityName6" name="cityName6" placeholder="Enter City Name" [(ngModel)]="cityName6" required>
+							<button type="button" name="Search" (click)="getWeatherReport(cityName6, 6)">Search </button>
+						</div>
+
+						<div class="panel-body">Weather Report
+							<p>
+								Cloud : {{cityNameResponse6.clouds}}
+							</p>
+							<p>
+								Temperature : {{cityNameResponse6.temp}}
+							</p>
+						</div>
+					</div>
+					<div class="panel panel-default weatherbox col-md-3 col-md-offset-1">
+						<div class="panel-heading">
+							<input type="text" id="cityName7" name="cityName7"          placeholder="Enter City Name" [(ngModel)]="cityName7" required>
+							<button type="button" name="Search" (click)="getWeatherReport(cityName7, 7)">Search
+					</button>
+						</div>
+
+						<div class="panel-body">Weather Report
+							<p>
+								Cloud : {{cityNameResponse7.clouds}}
+							</p>
+							<p>
+								Temperature : {{cityNameResponse7.temp}}
+							</p>
+						</div>
+					</div>
+					<div class="panel panel-default weatherbox col-md-3 col-md-offset-1">
+						<div class="panel-heading">
+							<input type="text" id="cityName8" name="cityName8"          placeholder="Enter City Name" [(ngModel)]="cityName8" required>
+							<button type="button" name="Search" (click)="getWeatherReport(cityName8, 8)">Search
+					</button>
+						</div>
+
+						<div class="panel-body">Weather Report
+							<p>
+								Cloud : {{cityNameResponse8.clouds}}
+							</p>
+							<p>
+								Temperature : {{cityNameResponse8.temp}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>

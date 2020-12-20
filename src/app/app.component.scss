@@ -1,0 +1,25 @@
+p {
+  font-family: Lato;
+}
+
+.main-div {
+  // height: 566px !important;
+  background-color: white !important;
+  display: flex;
+  // flex-flow: nowrap;
+  // justify-content: space-evenly;
+}
+
+.weatherbox {
+  width: 285px;
+  height: 20px;
+  background: #b4ecff;
+  // border-radius: 8px;
+  display: table;
+  // margin: 20px auto;
+  // text-align: center;
+  font-size: 14px;
+  // line-height: 20px;
+  // overflow: hidden;
+  padding: 0 0 10px 0;
+}
